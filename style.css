@@ -1,0 +1,63 @@
+body {
+	background-image: url("C:/Users/PAPAI ROY/Desktop/Bank Details/Background/minimalist 4k Background.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: Arial,sans-serif;
+	color:#fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+.container {
+
+	background: rgba(0,0,0,0.1);
+	padding: 20px;
+	border-radius: 10px;
+	max-width: 400px;
+	width: 100%;
+	text-align: center;
+	box-shadow: 0 0 50px rgba(255, 255, 255, 0.7);
+}
+
+
+.container h1 {
+
+	margin-bottom: 20px;
+}
+
+.container label {
+
+	display: block;
+	margin-top: 10px;
+	text-align: left;
+}
+
+.container input[type="text"], .container input[type="password"], .container select {
+
+	width: calc(100% - 20px);
+	padding: 10px;
+	margin-top: 5px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.container button {
+
+	background: #20B2AA;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.container button:hover {
+
+	background: #778899;
+}
